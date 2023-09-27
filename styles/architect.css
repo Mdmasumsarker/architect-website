@@ -1,2 +1,28 @@
 /* work font sens */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Work+Sans:wght@200;600;700;800;900&display=swap');
+/*  */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color:#424242;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
